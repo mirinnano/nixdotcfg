@@ -9,8 +9,8 @@
   ];
 
   home = {
-    username = "mirin";
-    homeDirectory = "/home/mirin";
+    username = "enzo";
+    homeDirectory = "/home/enzo";
   };
 
   home.packages = (with pkgs; [
@@ -25,8 +25,7 @@
     lollypop
     lutris
     openrgb
-    betterdiscord-installr
-    
+    betterdiscord-installer
     
 
     #utils
@@ -80,5 +79,5 @@
 
   programs.home-manager.enable = true;
 
-  home.stateVersion = "25.11";
+  home.stateVersion = "23.05";
 }
