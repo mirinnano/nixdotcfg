@@ -4,7 +4,7 @@
   imports =
     [
       ./hardware-configuration.nix
-      ../hosts/desktop
+      ../desktop
     ];
 
   # Bootloader.
